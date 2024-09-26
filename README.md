@@ -38,7 +38,16 @@ dotnet add package PSHAPPS.Abp.BlobStoring.ArvanCloudProvider
 
 Install the `PSHAPPS.Abp.BlobStoring.ArvanCloudProvider` NuGet package into your project.
 
-### 2. Configure the Blob Provider
+### 2. Configure Module And Blob Provider
+
+Add Module Dependency
+
+```csharp
+
+[DependsOn(typeof(ArvanCloudBlobStoringProviderModule))]
+
+```
+
 
 In your module's `ConfigureServices` method, configure the BlobStoring options:
 
