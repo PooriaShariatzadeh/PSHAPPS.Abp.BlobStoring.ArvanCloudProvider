@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Volo.Abp.BlobStoring;
 
-namespace PSHAPPS.Abp.BlobStoring.ArvanCloudProvider.src
+namespace PSHAPPS.Abp.BlobStoring.ArvanCloudProvider
 {
     public interface IArvanCloudBlobNameCalculator
     {

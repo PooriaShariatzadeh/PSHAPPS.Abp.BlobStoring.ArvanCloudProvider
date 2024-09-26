@@ -5,7 +5,7 @@ using Amazon.S3.Model;
 using Volo.Abp.BlobStoring;
 using Volo.Abp.DependencyInjection;
 
-namespace PSHAPPS.Abp.BlobStoring.ArvanCloudProviderProvider.src
+namespace PSHAPPS.Abp.BlobStoring.ArvanCloudProviderProvider
 {
     public class ArvanCloudBlobProvider : BlobProviderBase, ITransientDependency
     {

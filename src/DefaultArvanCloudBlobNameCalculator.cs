@@ -7,7 +7,7 @@ using Volo.Abp.BlobStoring;
 using Volo.Abp.DependencyInjection;
 using Volo.Abp.MultiTenancy;
 
-namespace PSHAPPS.Abp.BlobStoring.ArvanCloudProvider.src
+namespace PSHAPPS.Abp.BlobStoring.ArvanCloudProvider
 {
     public class DefaultArvanCloudBlobNameCalculator : IArvanCloudBlobNameCalculator, ITransientDependency
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PSHAPPS.Abp.BlobStoring.ArvanCloudProviderProvider.src
+namespace PSHAPPS.Abp.BlobStoring.ArvanCloudProviderProvider
 {
 
     public static class ArvanCloudBlobProviderConfigurationNames

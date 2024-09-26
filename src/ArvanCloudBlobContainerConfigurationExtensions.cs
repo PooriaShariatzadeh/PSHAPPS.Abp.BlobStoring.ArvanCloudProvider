@@ -1,7 +1,7 @@
 ﻿using System;
 using Volo.Abp.BlobStoring;
 
-namespace PSHAPPS.Abp.BlobStoring.ArvanCloudProviderProvider.src
+namespace PSHAPPS.Abp.BlobStoring.ArvanCloudProviderProvider
 {
     public static class ArvanCloudBlobContainerConfigurationExtensions
     {
