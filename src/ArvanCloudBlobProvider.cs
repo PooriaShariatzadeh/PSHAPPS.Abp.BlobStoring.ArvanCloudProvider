@@ -20,7 +20,8 @@ namespace PSHAPPS.Abp.BlobStoring.ArvanCloudProviderProvider.src
                     BucketName = args.Configuration.GetConfiguration<string>(ArvanCloudBlobProviderConfigurationNames.BucketName), // Use args.Configuration
                     Key = GetBlobKey(args),
                     InputStream = args.BlobStream,
-                    AutoCloseStream = false
+                    AutoCloseStream = false,
+                    CannedACL = S3CannedACL.PublicRead
                 };
 
                 await client.PutObjectAsync(putRequest, args.CancellationToken);
